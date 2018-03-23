@@ -1,0 +1,79 @@
+.item1 { grid-area: menu; }
+.item2 { grid-area: main; }
+.item3 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu menu menu menu'
+    'main main main main'
+    'main main main main'
+    'footer footer footer footer';
+  grid-gap:12px;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+.column {
+    padding: 8px;
+    float: center;
+    width:100%;
+}
+body {
+    background-size:cover;
+}
+
+section {
+    color: black;
+    font-size:4rem;
+    font-family: Planewalker;
+    font-weight: bold;
+}
+input {
+	width: 10em;  
+	height: 2.5em;
+	font-size: 0.4em;
+	background-color: lightyellow;
+	text-align: center;
+    font-family: Planewalker;
+    font-weight: bold;
+}
+
+.item1 img {
+    width:7%;
+}
+.item3 button {
+    margin-top: 5px; 
+    width: 5em;  
+    height: 2em;
+    font-size: 1em;
+    font-family: Planewalker;
+    background-color: lightyellow;
+}
+
+.item3 {
+    color: white;
+    font-size:2rem;
+    font-family: Planewalker;
+    font-weight: bold;  
+    text-align:bottom;
+}
+.content img {
+    float:right;
+    margin:-30px 5px 10px 5px;
+    padding: 5px; }
+
+
+.transbox {
+    background-color: #ffffff;
+    border: 1px solid white;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.transbox p {
+    margin: 1%;
+    font-weight: bold;
+    color: #000000;
+}
